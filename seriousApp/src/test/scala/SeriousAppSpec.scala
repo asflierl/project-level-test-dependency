@@ -1,11 +1,12 @@
 package example
 
+import example.SeriousApp._
 import example.testing.TestHelpers._
 import org.specs2.Specification
 
 class SeriousAppSpec extends Specification { def is = s2"""
-  Wobble should wibble $e1
+  Serious wobbling should be no less than wibbling $e1
 """
   
-  def e1 = new SeriousApp().wobble should wibble
+  def e1 = wobble should wibble
 }

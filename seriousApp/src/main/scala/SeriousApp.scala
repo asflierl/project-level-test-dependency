@@ -1,5 +1,5 @@
 package example
 
-class SeriousApp {
+object SeriousApp {
   def wobble = 42
 }
