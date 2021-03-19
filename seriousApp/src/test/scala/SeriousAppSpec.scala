@@ -1,6 +1,7 @@
 package example
 
 import example.SeriousApp._
+import example.syntax.SyntaxSugar
 import example.testing.AdditionalMatchers._
 import org.specs2.Specification
 
@@ -9,4 +10,6 @@ class SeriousAppSpec extends Specification { def is = s2"""
 """
   
   def e1 = wobble should wibble
+
+  val food = SyntaxSugar.candy
 }
