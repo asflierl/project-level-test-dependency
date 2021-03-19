@@ -1,7 +1,7 @@
 package example
 
 import example.SeriousApp._
-import example.testing.TestHelpers._
+import example.testing.AdditionalMatchers._
 import org.specs2.Specification
 
 class SeriousAppSpec extends Specification { def is = s2"""
